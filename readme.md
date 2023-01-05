@@ -1,5 +1,3 @@
-#product-api
-
 # Cara menjalankan api
 Beberapa langkah yang harus dilakukan untuk menjalankan api ini :
 
@@ -20,7 +18,7 @@ Beberapa api yang sudah dibuat pada project ini :
 2. api view destination-product : http://localhost:3000/destination-product (GET)
 
 
-# NOTED
+# Noted
 
 Saat api dijalankan secara otomatis akan melakukan auto migrate tabel jika database sudah didefinisikan sebelumnya. Proses seeder data juga otomatis dijalanlan jika pengatuan DB_SEED=1 pada file .env
 
