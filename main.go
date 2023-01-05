@@ -38,7 +38,7 @@ func main() {
 	// auto seed table of db
 	if os.Getenv("DB_SEED") == "1" {
 		go func() {
-			if err := infra.RunSeed(dbSource, dbDesti, 2, redisConn); err != nil {
+			if err := infra.RunSeed(dbSource, dbDesti, 500, redisConn); err != nil {
 				fmt.Println("error seed data :", err.Error())
 			}
 		}()
